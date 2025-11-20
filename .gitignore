@@ -1,0 +1,10 @@
+#dependencies
+*.env
+*.json
+*.development
+
+#folders
+node_modules/
+
+#chrome profile
+UsersHPAppDataLocalGoogleChromeUser DataProfile 7/

@@ -1,0 +1,8 @@
+#files
+*.json
+
+#node_module
+node_modules/
+
+#chrome profile
+UsersHPAppDataLocalGoogleChromeUser DataProfile 7/
