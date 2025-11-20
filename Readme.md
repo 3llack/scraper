@@ -13,15 +13,14 @@ Node.js 16+
 
 
 API keys for:
-Apollo.io
 Freshsales CRM
 
 
 Installation
 Clone the project and install dependencies:
 git clone https://github.com/3llack/scraper.git
-cd scraper.git
-npm install
+cd scraper
+npm install dependencies
 
 
 Setup
@@ -42,22 +41,12 @@ node scraper.js --> to run
 
 Freshsales Scraper
 Fetches contacts from a Freshsales CRM view and saves them to freshsales-api-contacts.json.
-node freshsales.js --> to run
+node scraper.js --> to run
 
 
 Output Format
 Both scrapers produce JSON with the following structure:
 
-{
-  "name": "",
-  "lead": "",
-  "jobTitle": "",
-  "email": "",
-  "mobile": "",
-  "status": "",
-  "tags": "",
-  "cxManager": ""
-}
 
 Notes
   Pagination is handled automatically.
